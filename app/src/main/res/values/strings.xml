@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CarmudiAppTest</string>
+    <string name="action_sort">Sort</string>
+    <string name="dropdown_oldest">Oldest</string>
+    <string name="dropdown_newest">Newest</string>
+    <string name="dropdown_price_low">Price-low</string>
+    <string name="dropdown_price_high">Price-high</string>
+    <string name="dropdown_mileage_low">Mileage-low</string>
+    <string name="dropdown_mileage_high">Mileage-high</string>
+</resources>

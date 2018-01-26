@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.levrsoft.carmudiapptest.main.ui.MainActivity">
+    <item
+        android:icon="@drawable/ic_action_sort"
+        android:orderInCategory="100"
+        android:title="@string/action_sort"
+        app:showAsAction="always">
+
+
+        <menu>
+            <item
+                android:id="@+id/action_oldest"
+                android:title="@string/dropdown_oldest" />
+            <item
+                android:id="@+id/action_newest"
+                android:title="@string/dropdown_newest" />
+            <item
+                android:id="@+id/action_price_low"
+                android:title="@string/dropdown_price_low" />
+
+            <item
+                android:id="@+id/action_price_high"
+                android:title="@string/dropdown_price_high" />
+            <item
+                android:id="@+id/action_mileage_low"
+                android:title="@string/dropdown_mileage_low" />
+            <item
+                android:id="@+id/action_mileage_high"
+                android:title="@string/dropdown_mileage_high" />
+        </menu>
+
+
+    </item>
+</menu>
